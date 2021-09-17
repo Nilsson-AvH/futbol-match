@@ -1,0 +1,23 @@
+
+
+	Index.htm
+
+	vista
+		- html
+			registro_user.html
+			menu.html
+			registro_partidos.html
+			listado_partidos.html
+			marcadores.html
+					
+		- css
+			estilos.css
+			normalize.css
+		- js	
+			funciones.js
+		- img
+	Modelo
+		- conexion.java
+		
+	Controlador
+		- 

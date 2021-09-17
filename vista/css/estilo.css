@@ -1,0 +1,58 @@
+html{
+    /*reset para REMS - 62.5% = 10px de 16px*/
+    /*1 rem es 16px
+    font-size: 62.5%;/*fuente es proporcional en todas las pantallas*/
+    box-sizing: border-box;/*propiedades ancho*/
+}
+*,*:before, *:after{/*ajuste a las pantallas*/
+    box-sizing: inherit;
+}
+body{
+    background-color: rgb(241, 237, 237);
+}
+.contenedor{
+    background-color: #ffffff;
+    margin: 0 3rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.5);
+}
+h3{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    font-style: italic;
+
+}
+h4{
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.encabezado_formulario{
+    display: flex;
+}
+.registro_marcardor{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+img{
+    width: 80%;
+}
+.escudo{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc(8% - 1rem);
+    text-align: center;/*centrar texto*/
+}
+.botonn{
+    
+}

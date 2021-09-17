@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="img/logo2.png">
+	<title>Futbol Match Registro usuarios</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header class="encabezado">
+		<div class="logo">
+			<img src="img/logo2.png" alt="Logo Futbol Match" height="180%">
+		</div>
+		<div class="titulo-app">
+			<h1>Futbol <span>  Match</span></h1>
+		</div>
+	</header>
+	<main class="contenedor">
+		<h4>Serie A TIM  <span> La máxima categoría !</span></h4>
+		<div class="subcontenedor">
+			<section class="formulario formu-registro">
+				<legend>
+					Datos del usuario
+				</legend>
+				<form action="#">
+					<div class="contenedor-campos">
+						<div class="campo campo-reg">
+							<!--<label>Nombre: </label>-->
+							<input type="text" name="nombre" placeholder="Nombre" autocomplete="off">
+						</div>
+                        <div class="campo campo-reg">
+							<!--<label>Correo: </label>-->
+							<input type="email" name="email" placeholder="Correo electrónico" autocomplete="off">
+						</div>
+                        <div class="campo campo-reg">
+							<!--<label>Username: </label>-->
+							<input type="text" name="User-name" placeholder="User name" autocomplete="off">
+						</div>
+						<div class="campo campo-reg">
+							<!--<label>Contraseña:</label>-->
+							<input type="password" name="Contraseña" placeholder="Contraseña" autocomplete="off">
+						</div>		
+					</div>
+                    <section class="area-botones">
+                        <div class="enviar">
+                            <input type="submit" class="boton btn-registro" name="enviar" value="Guardar">
+                        </div>
+                        <div class="cancelar">
+                            <input type="button" class="boton btn-registro" name="limpiar" value="Limpiar">
+                        </div>
+                        <div class="Regresar">
+                            <input type="button" class="boton btn-registro" name="regresar" value="Regresar">
+                        </div>
+                     </section>
+				</form>
+			</section>
+		</div>
+	</main>
+	<footer>
+			<div class="banner">
+				<p>Copyright &#169 - Grupo 9 Ciclo 2 - MinTic 2022</p>
+			</div>
+		
+	</footer>	
+</body>
+
+
+</html>
